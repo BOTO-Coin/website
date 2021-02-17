@@ -29,12 +29,12 @@ ul {
 }
 .child {
   position: relative;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .logo {
-  width: 200px;
+  width: 300px;
 }
 a {
   color: #fff;
@@ -72,6 +72,9 @@ a {
 /* media query */
 
 @media (max-width: 680px) {
+  .logo {
+    width: 200px;
+  }
   .section {
     width: 90%;
     color: white;
@@ -85,6 +88,7 @@ a {
     margin-left: 20px;
   }
   .child {
+    top: 50%;
     position: static;
     transform: none;
   }
