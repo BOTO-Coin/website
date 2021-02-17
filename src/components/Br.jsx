@@ -1,17 +1,20 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import {Link} from 'react-router-dom';
+import boto from '../BotoCoin.png';
+import ukflag from '../uk.png';
 
-import boto from './BotoCoin.png';
-
-export default function Main() {
+export default function Br() {
   return (
     <div className="main">
+      <div className="section">
+            <Link to="/"><img className="flag" src={ukflag} alt="English" /></Link>
+         </div>
       <div className="child">
         <div className="title">
           <img className="logo" src={boto} alt="boto" />
           <h1>BOTO Coin</h1>
           <br />
-          <p>The Brazilian token designed to raise funds to help the Amazonia</p>
+          <p>O token brasileiro criado para arrecadar fundos para ajudar a Amazônia.</p>
           <br />
           <a className="mr-5" href="https://t.me/BOTOCoin" target="_blank">
             <svg
@@ -78,31 +81,30 @@ export default function Main() {
 
         <div className="section">
           <div>
-            <h3>Tokenomics:</h3>
+            <h3>Características:</h3>
             <ul>
-              <li>1,000,000 Max supply</li>
-              <li>All supply added to liquidity</li>
-              <li>No team tokens</li>
-              <li>Fair launch</li>
+              <li>1,000,000 Máximo de Tokens</li>
+              <li>Toda a oferta adicionada à liquidez</li>
+              <li>Sem Time de Tokens</li>
+              <li>Lançamento justo</li>
             </ul>
           </div>
           <div>
-            <h3>Rules:</h3>
+            <h3>Regras:</h3>
             <ul>
-              <li>1% burn every swap</li>
-              <li>1% distributed to holders every swap</li>
+              <li>1% queima a cada troca</li>
+              <li>1% distribuído aos titulares a cada troca</li>
             </ul>
           </div>
           <div>
-            <h3>Proofs:</h3>
+            <h3>Provas:</h3>
             <ul>
               <a
                 href="https://tronscan.io/#/token20/TZ6Nrrphj1VPXEet3wRcGFdbJh2mRenJPr"
                 target="_blank"
               >
-                <li>Contract Address</li>
+                <li>Endereço do Contrato</li>
               </a>
-
             </ul>
           </div>
         </div>

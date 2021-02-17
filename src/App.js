@@ -1,21 +1,23 @@
-import {BrowserRouter, Route } from 'react-router-dom';
-
-import Main from './Main';
-
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import Home from './components/Home';
+import Br from './components/Br';
 import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div className="App">
-      {/* <div className="menu">
-        <NavLink to="/uniswap-guide">
-          <button>Uniswap Guide</button>
-        </NavLink>
-      </div> */}
-        <Route exact path="/" component={Main} />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          
+          <Route path="/br">
+            <Br />
+          </Route>
+        </Switch>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 

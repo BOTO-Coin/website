@@ -1,5 +1,6 @@
 {
-  "name": "botocoin",
+  "name": "boto",
+  "description": "The Brazilian token designed to raise funds to help the Amazonia",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
