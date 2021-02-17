@@ -84,6 +84,7 @@ export default function Home() {
             <h3>Characteristics:</h3>
             <ul>
               <li>1,000,000 Max supply</li>
+              <li>30% reserved to Amazonia Hold Funds</li>
               <li>No team tokens</li>
               <li>Fair launch</li>
             </ul>
@@ -92,7 +93,7 @@ export default function Home() {
             <h3>Rules:</h3>
             <ul>
               <li>1% burn every swap</li>
-              <li>3% to Amazonia Funds</li>
+              <li>1% distributed to holders every swap</li>
             </ul>
           </div>
           <div>
