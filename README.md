@@ -1,3 +1,3 @@
 # BOTO Coin FrontEnd
 
-The Brazilian Token designed to save the Amazonia
+The Brazilian token designed to raise funds to help the Amazonia
