@@ -81,10 +81,9 @@ export default function Home() {
 
         <div className="section">
           <div>
-            <h3>Tokenomics:</h3>
+            <h3>Characteristics:</h3>
             <ul>
               <li>1,000,000 Max supply</li>
-              <li>All supply added to liquidity</li>
               <li>No team tokens</li>
               <li>Fair launch</li>
             </ul>
@@ -93,7 +92,7 @@ export default function Home() {
             <h3>Rules:</h3>
             <ul>
               <li>1% burn every swap</li>
-              <li>1% distributed to holders every swap</li>
+              <li>3% to Amazonia Funds</li>
             </ul>
           </div>
           <div>

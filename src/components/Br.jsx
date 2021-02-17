@@ -84,7 +84,6 @@ export default function Br() {
             <h3>Características:</h3>
             <ul>
               <li>1,000,000 Máximo de Tokens</li>
-              <li>Toda a oferta adicionada à liquidez</li>
               <li>Sem Time de Tokens</li>
               <li>Lançamento justo</li>
             </ul>
@@ -93,7 +92,7 @@ export default function Br() {
             <h3>Regras:</h3>
             <ul>
               <li>1% queima a cada troca</li>
-              <li>1% distribuído aos titulares a cada troca</li>
+              <li>3% para fundos da Amazônia</li>
             </ul>
           </div>
           <div>
