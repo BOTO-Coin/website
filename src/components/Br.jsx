@@ -78,7 +78,6 @@ export default function Br() {
             </svg>
           </a>
         </div>
-
         <div className="section">
           <div>
             <h3>Características:</h3>
@@ -100,16 +99,27 @@ export default function Br() {
             <h3>Provas:</h3>
             <ul>
               <a
+                href="https://boto.digital/whitepaper.pdf"
+                target="_blank"
+              >
+                <li>Whitepaper</li>
+              </a>
+              <a
                 href="https://tronscan.io/#/token20/TZ6Nrrphj1VPXEet3wRcGFdbJh2mRenJPr"
                 target="_blank"
               >
                 <li>Endereço do Contrato</li>
               </a>
+              <a
+                href="https://tronscan.io/#/address/TPPqnaUU2jyhrKQxCEo8tmHXf5vk5VaHg1"
+                target="_blank"
+              >
+                <li>Endereço dos Fundos da Amazônia</li>
+              </a>
+              
             </ul>
           </div>
-        </div>
-
-        
+        </div>      
       </div>
     </div>
   );

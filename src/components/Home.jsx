@@ -100,17 +100,26 @@ export default function Home() {
             <h3>Proofs:</h3>
             <ul>
               <a
+                href="https://boto.digital/whitepaper.pdf"
+                target="_blank"
+              >
+                <li>Whitepaper</li>
+              </a>
+              <a
                 href="https://tronscan.io/#/token20/TZ6Nrrphj1VPXEet3wRcGFdbJh2mRenJPr"
                 target="_blank"
               >
                 <li>Contract Address</li>
               </a>
-
+              <a
+                href="https://tronscan.io/#/address/TPPqnaUU2jyhrKQxCEo8tmHXf5vk5VaHg1"
+                target="_blank"
+              >
+                <li>Amazonia Funds Address</li>
+              </a>
             </ul>
           </div>
-        </div>
-
-        
+        </div>        
       </div>
     </div>
   );
