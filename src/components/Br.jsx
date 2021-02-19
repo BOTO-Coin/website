@@ -80,7 +80,7 @@ export default function Br() {
         </div>
         <div className="section">
           <div>
-            <h3>Características:</h3>
+            <h3>Informações do Token:</h3>
             <ul>
               <li>1,000,000 Máximo de Tokens</li>
               <li>30% reservado para os fundos da Amazônia</li>

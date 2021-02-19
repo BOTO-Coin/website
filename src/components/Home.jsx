@@ -81,7 +81,7 @@ export default function Home() {
 
         <div className="section">
           <div>
-            <h3>Characteristics:</h3>
+            <h3>Token Info:</h3>
             <ul>
               <li>1,000,000 Max supply</li>
               <li>30% reserved to Amazonia Hold Funds</li>
